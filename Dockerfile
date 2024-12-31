@@ -1,4 +1,4 @@
-FROM python:3.11-slim AS base
+FROM python:3.14.0a3-slim AS base
 
 WORKDIR /opt/brpc
 COPY requirements.txt .
