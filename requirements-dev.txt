@@ -3,3 +3,4 @@ pylint==3.3.1
 coverage==7.1.0
 requests==2.28.2
 requests_mock==1.10.0
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
